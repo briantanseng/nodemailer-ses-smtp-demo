@@ -1,0 +1,21 @@
+{
+  "name": "nodemailer-ses-smtp-demo",
+  "version": "1.0.0",
+  "description": "Demo app that uses nodemailer to send emails through AWS SES SMTP",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "nodemailer",
+    "ses",
+    "smtp",
+    "email"
+  ],
+  "author": "Brian Tan Seng",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "nodemailer": "^6.7.2"
+  }
+}
